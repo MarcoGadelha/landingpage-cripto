@@ -1,11 +1,10 @@
 $white: #ffffff;
 $black: #000000;
-// $primary1: #0cb1a8;
 $primary1: #00bbf0;
 $primary2: #00204a;
 $textCol: #1f1f1f;
 
-// import fonts - font-family: 'Open Sans', sans-serif;
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
 
 @mixin main-font {
@@ -105,7 +104,7 @@ a:focus {
   box-shadow: none;
 }
 
-/*header section*/
+/*header */
 .hero_area {
   position: relative;
   min-height: 100vh;
@@ -267,9 +266,8 @@ a:focus {
 
 }
 
-/*end header section*/
 
-/* slider section */
+/*carrosel*/
 .slider_section {
   flex: 1;
   display: flex;
@@ -369,9 +367,8 @@ a:focus {
   }
 }
 
-// end slider section
 
-// service section
+// servicos
 
 .service_section {
   position: relative;
@@ -433,9 +430,8 @@ a:focus {
   }
 }
 
-// end service section
 
-// about section
+//  sobre
 .about_section {
   background-color: $primary2;
   color: $white;
@@ -470,9 +466,8 @@ a:focus {
   }
 }
 
-// end about section
 
-// why section
+// pq nos
 
 .why_section {
 
@@ -523,9 +518,8 @@ a:focus {
   }
 }
 
-// end why section
 
-/*team section */
+/*time*/
 
 .team_section {
   text-align: center;
@@ -545,7 +539,6 @@ a:focus {
       overflow: hidden;
       transition: all .1s;
       margin-top: 45px;
-      // background-color: #053068;
       background: linear-gradient(to bottom, lighten($color: $primary2, $amount: 3), lighten($color: $primary2, $amount: 5));
 
       .img-box {
@@ -592,9 +585,8 @@ a:focus {
 
 }
 
-/*team section end*/
 
-/* client section start */
+/* clientes */
 
 .client_section {
   .heading_container {
@@ -677,9 +669,7 @@ a:focus {
   }
 }
 
-/* client section end */
 
-// info section
 .info_section {
   background-color: $primary2;
   color: $white;
@@ -775,9 +765,8 @@ a:focus {
   }
 }
 
-// end info section
 
-/* footer section*/
+/* footer*/
 
 .footer_section {
   position: relative;
@@ -794,5 +783,3 @@ a:focus {
     }
   }
 }
-
-// end footer section
