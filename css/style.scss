@@ -105,13 +105,13 @@ a:focus {
 }
 
 /*header */
-.hero_area {
+.area_textura {
   position: relative;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 
-  .hero_bg_box {
+  .box_area_textura {
     position: absolute;
     top: 0;
     left: 0;
@@ -123,7 +123,7 @@ a:focus {
     overflow: hidden;
     z-index: -1;
 
-    .bg_img_box {
+    .img_box_textura {
       min-width: 100%;
       min-height: 100%;
     }
@@ -136,11 +136,11 @@ a:focus {
 }
 
 .sub_page {
-  .hero_area {
+  .area_textura {
     min-height: auto;
     background: linear-gradient(130deg, #231a6f, #0f054c);
 
-    .hero_bg_box {
+    .box_area_textura {
       display: none;
     }
   }
@@ -268,7 +268,7 @@ a:focus {
 
 
 /*carrosel*/
-.slider_section {
+.section_carrosel {
   flex: 1;
   display: flex;
   align-items: center;
